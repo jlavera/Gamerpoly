@@ -10,13 +10,15 @@ Platform assembly: C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\UnityEngine
 Loading C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
 Loading C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
 Loading C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
 Platform assembly: C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
 Loading C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
 Platform assembly: C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.068 seconds
+- Completed reload, in  0.066 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -24,63 +26,5 @@ Platform assembly: C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\System.Core
 Profiler is only supported with Pro License
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Profiler/ProfilerConnection.cpp Line: 218)
-
-Platform assembly: C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\Boo.Lang.dll (this message is harmless)
-Platform assembly: C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\UnityScript.Lang.dll (this message is harmless)
-1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
- 
-(Filename: C Line: 0)
-
-2
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
- 
-(Filename: C Line: 0)
-
-3
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
- 
-(Filename: C Line: 0)
-
-2
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
- 
-(Filename: C Line: 0)
-
-5
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
- 
-(Filename: C Line: 0)
-
-3
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
- 
-(Filename: C Line: 0)
-
-1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
- 
-(Filename: C Line: 0)
-
-3
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
- 
-(Filename: C Line: 0)
 
 Waiting for finish
