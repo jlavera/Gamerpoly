@@ -16,7 +16,7 @@ Platform assembly: C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\Assembly-Un
 Loading C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
 Platform assembly: C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.063 seconds
+- Completed reload, in  0.068 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -34,21 +34,14 @@ SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets
  
 (Filename: C Line: 0)
 
-1
+2
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:LogError(Object)
 SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
  
 (Filename: C Line: 0)
 
-4
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
- 
-(Filename: C Line: 0)
-
-4
+3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:LogError(Object)
 SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
@@ -83,84 +76,7 @@ SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets
  
 (Filename: C Line: 0)
 
-6
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
- 
-(Filename: C Line: 0)
-
-2
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
- 
-(Filename: C Line: 0)
-
-2
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
- 
-(Filename: C Line: 0)
-
-4
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
- 
-(Filename: C Line: 0)
-
-6
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
- 
-(Filename: C Line: 0)
-
-1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
- 
-(Filename: C Line: 0)
-
-5
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
- 
-(Filename: C Line: 0)
-
-2
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
- 
-(Filename: C Line: 0)
-
-5
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
- 
-(Filename: C Line: 0)
-
-2
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
- 
-(Filename: C Line: 0)
-
 3
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
- 
-(Filename: C Line: 0)
-
-5
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:LogError(Object)
 SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\SideTrigger.js:11)
