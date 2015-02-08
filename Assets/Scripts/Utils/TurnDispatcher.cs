@@ -30,7 +30,7 @@ namespace Assets.Scripts.Utils {
         private int position;
 
         public Player NextPlayer {
-            get { return Players[++position % Players.Length]; }
+            get { return Players[position = (++position % Players.Length)]; }
         }
     }
 }

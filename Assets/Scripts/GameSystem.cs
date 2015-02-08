@@ -25,15 +25,15 @@ public class GameSystem : MonoBehaviour {
         //--Build array with players
         Players = new Player[3];
         Players[0] = new Player("Gatito", TokenFactory.Tokens.Cono);
-        Players[1] = new Player("Quique", TokenFactory.Tokens.Dona);
-        Players[2] = new Player("Bogdan", TokenFactory.Tokens.Tetera);
+        Players[1] = new Player("Catty", TokenFactory.Tokens.Dona);
+        Players[2] = new Player("Cat", TokenFactory.Tokens.Tetera);
 
         //--Build enumerator to cycle the player/turns
         Turns = new TurnDispatcher(Players);
 
         var play = Turns.NextPlayer; //--This is the next player
 
-        //GameObject.Find("pjCono").transform.position = Tiles[25].Position;
+        GameObject.Find("pjCono").transform.position = Tiles[5].Position;
     }
 
     void OnDestroy() {
