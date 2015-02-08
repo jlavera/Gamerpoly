@@ -5,8 +5,14 @@ using Assets.Scripts.Domain;
 
 public class GameSystem : MonoBehaviour {
 
-    private GameSystem m_Instance;
-    public GameSystem Instance { get { return m_Instance; } }
+    static private GameSystem m_Instance;
+    static public GameSystem Instance {
+        get {
+            if (m_Instance == null)
+                m_Instance = new GameSystem();
+            return m_Instance;
+        }
+    }
 
     public Tile[] Tiles;
     public Player[] Players;
@@ -47,6 +53,10 @@ public class GameSystem : MonoBehaviour {
 
     void OnGui() {
         // common GUI code goes here
+    }
+
+    public void MoverCono(int pos) {
+        GameObject.Find("pjCono").transform.position = Tiles[pos].Position;
     }
 
 }
