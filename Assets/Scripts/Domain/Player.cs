@@ -17,11 +17,18 @@ namespace Assets.Scripts.Domain {
 
         public string Name { get; private set; }
         public GameObject Token { get; private set; }
+		public int Tile { get; set; }
 
         public Player(string _name, TokenFactory.Tokens _tok) {
             Name = _name;
             Token = TokenFactory.Get(_tok);
+			Tile = 0;
         }
 
-    }
+		public void Move (int pos) {
+			Token.transform.position = GameSystem.Instance.Tiles [Tile = (Tile + pos) % 40].Position;
+			Debug.LogError ("moviendo "+Name+ " a "+ Tile);
+		}
+    
+	}
 }

@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using Assets.Scripts.Utils;
 using Assets.Scripts.Domain;
@@ -16,6 +16,7 @@ public class GameSystem : MonoBehaviour {
 
     public Tile[] Tiles;
     public Player[] Players;
+	public Player NextPlayer;
 
     public TurnDispatcher Turns;
 
@@ -31,15 +32,14 @@ public class GameSystem : MonoBehaviour {
         //--Build array with players
         Players = new Player[3];
         Players[0] = new Player("Gatito", TokenFactory.Tokens.Cono);
-        Players[1] = new Player("Catty", TokenFactory.Tokens.Dona);
-        Players[2] = new Player("Cat", TokenFactory.Tokens.Tetera);
+    //    Players[1] = new Player("Catty", TokenFactory.Tokens.Dona);
+    //    Players[2] = new Player("Cat", TokenFactory.Tokens.Tetera);
 
         //--Build enumerator to cycle the player/turns
         Turns = new TurnDispatcher(Players);
 
-        var play = Turns.NextPlayer; //--This is the next player
-
-        GameObject.Find("pjCono").transform.position = Tiles[5].Position;
+        NextPlayer = Turns.NextPlayer; //--This is the next player
+		
     }
 
     void OnDestroy() {
@@ -53,10 +53,6 @@ public class GameSystem : MonoBehaviour {
 
     void OnGui() {
         // common GUI code goes here
-    }
-
-    public void MoverCono(int pos) {
-        GameObject.Find("pjCono").transform.position = Tiles[pos].Position;
     }
 
 }

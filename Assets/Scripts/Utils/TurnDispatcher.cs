@@ -11,8 +11,8 @@ namespace Assets.Scripts.Utils {
 
         public TurnDispatcher(Player[] _players) {
             Players = _players;
-            position = 0;
-            //actual = 0;
+            position = -1;
+            //actual = -1;
         }
 
         //private int actual;
@@ -30,7 +30,7 @@ namespace Assets.Scripts.Utils {
         private int position;
 
         public Player NextPlayer {
-            get { return Players[position = (++position % Players.Length)]; }
+            get { return Players[position = ((position+1) % Players.Length)]; }
         }
     }
 }

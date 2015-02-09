@@ -16,7 +16,11 @@ namespace Assets.Scripts.Utils {
 		};
 
         public static GameObject Get(Tokens tok) {
-            return GameObject.Find(dict[tok]);
+            //return GameObject.Find(dict[tok]);
+			var aux = GameObject.Find (dict [tok]);
+			if (aux == null)
+				throw new Exception ( "tok not found " + dict[tok]);
+			return aux;
         }
 
     }
