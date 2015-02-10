@@ -2,65 +2,49 @@ using System;
 using System.Collections;
 using UnityEngine;
 namespace AssemblyCSharp {
-    public class SideTrigger:MonoBehaviour {
-        
-		public int faceValue;
-        public bool sleep = false;
-        public Vector3 prevPosition;
-        private DieValue dieComp;
-		private bool moving;
-		
+    public class SideTrigger : MonoBehaviour {
 
-        public SideTrigger() {}
+        public int faceValue;
 
-        public void OnTriggerEnter(Collider other) {			
-			var dieGameObject = GameObject.Find("Dice1");
-			dieComp = dieGameObject.GetComponent<DieValue>();
+        private GameObject Die;
+        private DieValue DieValue;
+        private bool TriggerActive;
 
-			//if (dieComp.currentValue == (7 - faceValue))
+        public SideTrigger() { }
 
-			if (moving)
-				return;
+        public void Awake() {
+            Die = GameObject.Find("Dice1");
+            DieValue = Die.GetComponent<DieValue>();
+            TriggerActive = false;
+        }
 
-			Debug.LogError ("salio el n "+ (7-faceValue));
+        public void OnTriggerEnter(Collider other) {
+            Debug.LogError("Pisó el nº " + (7 - faceValue));
+            DieValue.currentValue = (7 - faceValue);
+            TriggerActive = true;
+        }
 
-			dieComp.currentValue = (7 - faceValue);
-	
-			GameSystem.Instance.NextPlayer.Move (dieComp.currentValue);
-
-		}
-
-		
-		private IEnumerator isMoving()
-		{
-			Vector3 startPos = transform.position;
-			yield return new WaitForSeconds(1f);
-			Vector3 finalPos = transform.position;
-			
-			moving =  startPos.x != finalPos.x || startPos.y != finalPos.y || startPos.z != finalPos.z;
-		}
+        public void OnTriggerExit(Collider other) {
+            TriggerActive = false;
+        }
 
         public void FixedUpdate() {
 
-			isMoving ();
-			/*
-            var dice = GameObject.Find("Dice1");
+            if (!TriggerActive)
+                return;
 
-			if (!dice.rigidbody.IsSleeping () && turnIsOver == false) {
-				GameSystem.Instance.NextPlayer.Move (dieComp.currentValue);
-				turnIsOver = true;
-			} else {
-				turnIsOver = false;
-			}
-			if (prevPosition != dice.transform.position) {
-                prevPosition = dice.transform.position;
-                quieto = false;
-            } else if (!quieto) {
-                quieto = true;
-				GameSystem.Instance.NextPlayer.Move(dieComp.currentValue);
-				//Debug.LogError("Quieto: " + (dieComp.currentValue));
-            }
-            */
+            //--Si todavía se está moviendo el dado, retornar
+            if (!IsQuiet(Die))
+                return;
+            Debug.LogError("Salio el nº " + (7 - faceValue));
+            
+            //--Aca remuevo el trigger para que no vuelva a saltar, pero cuando arrastra de nuevo o se resetea el dado, hay que volver a agregarlo
+            this.enabled = false; 
+            //GameSystem.Instance.NextPlayer.Move(dieComp.currentValue);
+        }
+
+        public bool IsQuiet(GameObject obj) {
+            return obj.rigidbody.velocity == Vector3.zero && obj.rigidbody.angularVelocity == Vector3.zero;
         }
     }
 }

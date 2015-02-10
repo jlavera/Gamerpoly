@@ -15,8 +15,6 @@ namespace AssemblyCSharp
 	{
 		public int currentValue = 0;
 		public DieValue (){	}
-		
-		public void Update(){
-		}
+
 	}
 }
