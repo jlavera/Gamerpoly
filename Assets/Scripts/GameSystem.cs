@@ -16,7 +16,7 @@ public class GameSystem : MonoBehaviour {
 
     public Tile[] Tiles;
     public Player[] Players;
-	public Player NextPlayer;
+    public Player NextPlayer;
 
     public TurnDispatcher Turns;
 
@@ -32,14 +32,13 @@ public class GameSystem : MonoBehaviour {
         //--Build array with players
         Players = new Player[3];
         Players[0] = new Player("Gatito", TokenFactory.Tokens.Cono);
-    //    Players[1] = new Player("Catty", TokenFactory.Tokens.Dona);
-    //    Players[2] = new Player("Cat", TokenFactory.Tokens.Tetera);
+        Players[1] = new Player("Catty", TokenFactory.Tokens.Dona);
+        Players[2] = new Player("Cat", TokenFactory.Tokens.Tetera);
 
         //--Build enumerator to cycle the player/turns
         Turns = new TurnDispatcher(Players);
 
-        NextPlayer = Turns.NextPlayer; //--This is the next player
-		
+        ProximoTurno();
     }
 
     void OnDestroy() {
@@ -53,6 +52,10 @@ public class GameSystem : MonoBehaviour {
 
     void OnGui() {
         // common GUI code goes here
+    }
+
+    void ProximoTurno() {
+        NextPlayer = Turns.NextPlayer; //--This is the next player
     }
 
 }

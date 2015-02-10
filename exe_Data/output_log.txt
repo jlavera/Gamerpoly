@@ -1,151 +1,116 @@
-Initialize engine version: 4.6.0f2 (b073107612b7)
+Initialize engine version: 4.6.1f1 (d1db7a1b5196)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: AMD Radeon HD 7700 Series (ID=0x683d)
-    Vendor:   ATI
-    VRAM:     1003 MB
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Vendor:   Intel
+    VRAM:     2085 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
-Loading C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
-Loading C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-Platform assembly: C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.057 seconds
+Platform assembly: D:\Laburo\Unity\Gamerpoly\exe_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Laburo\Unity\Gamerpoly\exe_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Laburo\Unity\Gamerpoly\exe_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Laburo\Unity\Gamerpoly\exe_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Laburo\Unity\Gamerpoly\exe_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Laburo\Unity\Gamerpoly\exe_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Laburo\Unity\Gamerpoly\exe_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading D:\Laburo\Unity\Gamerpoly\exe_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Laburo\Unity\Gamerpoly\exe_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\Laburo\Unity\Gamerpoly\exe_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\Laburo\Unity\Gamerpoly\exe_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Laburo\Unity\Gamerpoly\exe_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.069 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
-Platform assembly: C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\System.Core.dll (this message is harmless)
-Profiler is only supported with Pro License
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Profiler/ProfilerConnection.cpp Line: 218)
-
+Platform assembly: D:\Laburo\Unity\Gamerpoly\exe_Data\Managed\System.Core.dll (this message is harmless)
 salio el n 1
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:LogError(Object)
-AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:25)
+AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:25)
  
-(Filename: C Line: 0)
+(Filename: D Line: 0)
 
 moviendo Gatito a 1
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:LogError(Object)
-Assets.Scripts.Domain.Player:Move(Int32) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Domain\Player.cs:30)
-AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:29)
+Assets.Scripts.Domain.Player:Move(Int32) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Domain\Player.cs:30)
+AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:29)
  
-(Filename: C Line: 0)
+(Filename: D Line: 0)
 
 salio el n 1
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:LogError(Object)
-AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:25)
+AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:25)
  
-(Filename: C Line: 0)
+(Filename: D Line: 0)
 
 moviendo Gatito a 2
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:LogError(Object)
-Assets.Scripts.Domain.Player:Move(Int32) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Domain\Player.cs:30)
-AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:29)
+Assets.Scripts.Domain.Player:Move(Int32) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Domain\Player.cs:30)
+AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:29)
  
-(Filename: C Line: 0)
+(Filename: D Line: 0)
 
-Platform assembly: C:\Users\LEO\Documents\GamerPoly\exe_Data\Managed\Boo.Lang.dll (this message is harmless)
+Platform assembly: D:\Laburo\Unity\Gamerpoly\exe_Data\Managed\Boo.Lang.dll (this message is harmless)
 salio el n 4
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:LogError(Object)
-AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:25)
+AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:25)
  
-(Filename: C Line: 0)
+(Filename: D Line: 0)
 
 moviendo Gatito a 6
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:LogError(Object)
-Assets.Scripts.Domain.Player:Move(Int32) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Domain\Player.cs:30)
-AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:29)
+Assets.Scripts.Domain.Player:Move(Int32) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Domain\Player.cs:30)
+AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:29)
  
-(Filename: C Line: 0)
+(Filename: D Line: 0)
 
-salio el n 4
+salio el n 6
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:LogError(Object)
-AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:25)
+AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:25)
  
-(Filename: C Line: 0)
+(Filename: D Line: 0)
 
-moviendo Gatito a 10
+moviendo Gatito a 12
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:LogError(Object)
-Assets.Scripts.Domain.Player:Move(Int32) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Domain\Player.cs:30)
-AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:29)
+Assets.Scripts.Domain.Player:Move(Int32) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Domain\Player.cs:30)
+AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:29)
  
-(Filename: C Line: 0)
+(Filename: D Line: 0)
 
 salio el n 3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:LogError(Object)
-AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:25)
+AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:25)
  
-(Filename: C Line: 0)
+(Filename: D Line: 0)
 
-moviendo Gatito a 13
+moviendo Gatito a 15
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:LogError(Object)
-Assets.Scripts.Domain.Player:Move(Int32) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Domain\Player.cs:30)
-AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:29)
+Assets.Scripts.Domain.Player:Move(Int32) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Domain\Player.cs:30)
+AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:29)
  
-(Filename: C Line: 0)
+(Filename: D Line: 0)
 
-salio el n 4
+salio el n 3
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:LogError(Object)
-AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:25)
+AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:25)
  
-(Filename: C Line: 0)
+(Filename: D Line: 0)
 
-moviendo Gatito a 17
+moviendo Gatito a 18
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:LogError(Object)
-Assets.Scripts.Domain.Player:Move(Int32) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Domain\Player.cs:30)
-AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:29)
+Assets.Scripts.Domain.Player:Move(Int32) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Domain\Player.cs:30)
+AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:29)
  
-(Filename: C Line: 0)
+(Filename: D Line: 0)
 
-salio el n 2
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:25)
- 
-(Filename: C Line: 0)
-
-moviendo Gatito a 19
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-Assets.Scripts.Domain.Player:Move(Int32) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Domain\Player.cs:30)
-AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:29)
- 
-(Filename: C Line: 0)
-
-salio el n 1
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:25)
- 
-(Filename: C Line: 0)
-
-moviendo Gatito a 20
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-Assets.Scripts.Domain.Player:Move(Int32) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Domain\Player.cs:30)
-AssemblyCSharp.SideTrigger:OnTriggerEnter(Collider) (at C:\Users\LEO\Documents\GamerPoly\Assets\Scripts\Triggers\Dice\SideTrigger.cs:29)
- 
-(Filename: C Line: 0)
-
-Waiting for finish

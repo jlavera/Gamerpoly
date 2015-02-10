@@ -7,20 +7,19 @@ using UnityEngine;
 namespace Assets.Scripts.Utils {
     public static class TokenFactory {
 
-        public enum Tokens { Cono, Dona, Tetera}
+        public enum Tokens { Cono, Dona, Tetera }
 
-		private static Dictionary<Tokens, string> dict = new Dictionary<Tokens, string>(){
-			{Tokens.Cono, "pjCono"},
-			{Tokens.Dona, "pjDona"},
-			{Tokens.Tetera, "pjTetera"}
+        private static Dictionary<Tokens, string> dict = new Dictionary<Tokens, string>(){
+			{Tokens.Cono, "tokenCono"},
+			{Tokens.Dona, "tokenDona"},
+			{Tokens.Tetera, "tokenTetera"}
 		};
 
         public static GameObject Get(Tokens tok) {
-            //return GameObject.Find(dict[tok]);
-			var aux = GameObject.Find (dict [tok]);
-			if (aux == null)
-				throw new Exception ( "tok not found " + dict[tok]);
-			return aux;
+            var aux = GameObject.Find(dict[tok]);
+            if (aux == null)
+                throw new Exception("tok not found " + dict[tok]);
+            return aux;
         }
 
     }
