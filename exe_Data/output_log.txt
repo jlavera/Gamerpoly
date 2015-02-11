@@ -18,55 +18,25 @@ Platform assembly: D:\Laburo\Unity\Gamerpoly\exe_Data\Managed\Assembly-UnityScri
 Loading D:\Laburo\Unity\Gamerpoly\exe_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
 Platform assembly: D:\Laburo\Unity\Gamerpoly\exe_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading D:\Laburo\Unity\Gamerpoly\exe_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.072 seconds
+- Completed reload, in  0.060 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 Platform assembly: D:\Laburo\Unity\Gamerpoly\exe_Data\Managed\System.Core.dll (this message is harmless)
+NullReferenceException: Object reference not set to an instance of an object
+  at Assets.Scripts.Die.DiceScript.ResetDice () [0x0001f] in D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Die\DiceScript.cs:29 
+  at Assets.Scripts.Die.DiceScript.Awake () [0x00007] in D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Die\DiceScript.cs:18 
+ 
+(Filename: D Line: 0)
+
 Profiler is only supported with Pro License
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Profiler/ProfilerConnection.cpp Line: 218)
 
-Platform assembly: D:\Laburo\Unity\Gamerpoly\exe_Data\Managed\Boo.Lang.dll (this message is harmless)
-Pisó el nº 3
+Pisó el nº 1
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:LogError(Object)
-AssemblyCSharp.Scripts.Dices.Die.SideTrigger:OnTriggerEnter(Collider) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Dices\Die\SideTrigger.cs:23)
- 
-(Filename: D Line: 0)
-
-Pisó el nº 4
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-AssemblyCSharp.Scripts.Dices.Die.SideTrigger:OnTriggerEnter(Collider) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Dices\Die\SideTrigger.cs:23)
- 
-(Filename: D Line: 0)
-
-Pisó el nº 4
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-AssemblyCSharp.Scripts.Dices.Die.SideTrigger:OnTriggerEnter(Collider) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Dices\Die\SideTrigger.cs:23)
- 
-(Filename: D Line: 0)
-
-Pisó el nº 5
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-AssemblyCSharp.Scripts.Dices.Die.SideTrigger:OnTriggerEnter(Collider) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Dices\Die\SideTrigger.cs:23)
- 
-(Filename: D Line: 0)
-
-Pisó el nº 5
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-AssemblyCSharp.Scripts.Dices.Die.SideTrigger:OnTriggerEnter(Collider) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Dices\Die\SideTrigger.cs:23)
- 
-(Filename: D Line: 0)
-
-Pisó el nº 5
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:LogError(Object)
-AssemblyCSharp.Scripts.Dices.Die.SideTrigger:OnTriggerEnter(Collider) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Dices\Die\SideTrigger.cs:23)
+AssemblyCSharp.Scripts.Die.SideTrigger:OnTriggerEnter(Collider) (at D:\Laburo\Unity\Gamerpoly\Assets\Scripts\Die\SideTrigger.cs:26)
  
 (Filename: D Line: 0)
 

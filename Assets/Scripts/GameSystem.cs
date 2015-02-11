@@ -52,21 +52,15 @@ public class GameSystem : MonoBehaviour {
         m_Instance = null;
     }
 
-
     void FixedUpdate() {
         // global game update logic goes here
-
         ProximoTurno();
 
         if (Dice == null)
             Debug.LogError("Dado 404");
 
-        if (((DiceScript)Dice.GetComponent(typeof(DiceScript))) == null)
-            Debug.LogError("asdas");
-
         if (Input.GetKey(KeyCode.Return))
             ((DiceScript)Dice.GetComponent(typeof(DiceScript))).ResetDice();
-
     }
 
     void OnGui() {
@@ -76,5 +70,4 @@ public class GameSystem : MonoBehaviour {
     void ProximoTurno() {
         CurrentPlayer = Turns.NextPlayer; //--This is the next player
     }
-
 }
