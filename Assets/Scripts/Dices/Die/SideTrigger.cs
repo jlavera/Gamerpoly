@@ -1,26 +1,24 @@
 using System;
 using System.Collections;
 using UnityEngine;
-namespace AssemblyCSharp {
+namespace AssemblyCSharp.Scripts.Dices.Die {
     public class SideTrigger : MonoBehaviour {
 
-        public int faceValue;
-
+        public int FaceValue;
         private GameObject Die;
-        private DieValue DieValue;
         private bool TriggerActive;
+
+        private int FinalValue { get { return 7 - FaceValue; } }
 
         public SideTrigger() { }
 
         public void Awake() {
             Die = GameObject.Find("Dice1");
-            DieValue = Die.GetComponent<DieValue>();
             TriggerActive = false;
         }
 
         public void OnTriggerEnter(Collider other) {
-            Debug.LogError("Pisó el nº " + (7 - faceValue));
-            DieValue.currentValue = (7 - faceValue);
+            Debug.LogError("Pisó el nº " + FinalValue);
             TriggerActive = true;
         }
 
@@ -36,11 +34,12 @@ namespace AssemblyCSharp {
             //--Si todavía se está moviendo el dado, retornar
             if (!IsQuiet(Die))
                 return;
-            Debug.LogError("Salio el nº " + (7 - faceValue));
+
+            Debug.LogError("Salio el nº " + FinalValue);
             
             //--Aca remuevo el trigger para que no vuelva a saltar, pero cuando arrastra de nuevo o se resetea el dado, hay que volver a agregarlo
-            this.enabled = false; 
-            //GameSystem.Instance.NextPlayer.Move(dieComp.currentValue);
+            this.enabled = false;
+            GameSystem.Instance.CurrentPlayer.Move(FinalValue);
         }
 
         public bool IsQuiet(GameObject obj) {

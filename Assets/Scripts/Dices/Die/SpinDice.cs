@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using UnityEngine;
 
-namespace Assets.Scripts.Triggers.Dice {
+namespace AssemblyCSharp.Scripts.Dices.Die {
     class SpinDice : MonoBehaviour {
 
         public float speed = 700f;

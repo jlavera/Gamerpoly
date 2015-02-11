@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using Assets.Scripts.Utils;
 using Assets.Scripts.Domain;
+using Assets.Scripts.Dices;
 
 public class GameSystem : MonoBehaviour {
 
@@ -16,9 +17,11 @@ public class GameSystem : MonoBehaviour {
 
     public Tile[] Tiles;
     public Player[] Players;
-    public Player NextPlayer;
+    public Player CurrentPlayer;
 
     public TurnDispatcher Turns;
+
+    public Dice Dice;
 
     void Awake() {
         m_Instance = this;
@@ -39,6 +42,8 @@ public class GameSystem : MonoBehaviour {
         Turns = new TurnDispatcher(Players);
 
         ProximoTurno();
+
+        Dice = new Dice();
     }
 
     void OnDestroy() {
@@ -46,8 +51,14 @@ public class GameSystem : MonoBehaviour {
     }
 
 
-    void Update() {
+    void FixedUpdate() {
         // global game update logic goes here
+
+        ProximoTurno();
+
+        if (Input.GetKey(KeyCode.Return))
+            Dice.ResetDice();
+            
     }
 
     void OnGui() {
@@ -55,7 +66,7 @@ public class GameSystem : MonoBehaviour {
     }
 
     void ProximoTurno() {
-        NextPlayer = Turns.NextPlayer; //--This is the next player
+        CurrentPlayer = Turns.NextPlayer; //--This is the next player
     }
 
 }
