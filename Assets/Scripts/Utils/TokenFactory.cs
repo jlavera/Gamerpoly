@@ -10,9 +10,9 @@ namespace Assets.Scripts.Utils {
         public enum Tokens { Cono, Dona, Tetera }
 
         private static Dictionary<Tokens, string> dict = new Dictionary<Tokens, string>(){
-			{Tokens.Cono, "tokenCono"},
-			{Tokens.Dona, "tokenDona"},
-			{Tokens.Tetera, "tokenTetera"}
+			{Tokens.Cono, ObjMan.TokenCono},
+			{Tokens.Dona, ObjMan.TokenDona},
+			{Tokens.Tetera, ObjMan.TokenTetera}
 		};
 
         public static GameObject Get(Tokens tok) {

@@ -53,7 +53,9 @@ function Update ()
 
 function DragObject (distance : float)
 {
-	var oldDrag = springJoint.connectedBody.drag;
+	springJoint.GetComponent("DiceScript").SendMessage("StartDrag");
+
+	var oldDrag = springJoint.connectedBody.drag;	
 	var oldAngularDrag = springJoint.connectedBody.angularDrag;
 	springJoint.connectedBody.drag = drag;
 	springJoint.connectedBody.angularDrag = angularDrag;

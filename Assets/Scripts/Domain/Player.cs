@@ -27,7 +27,7 @@ namespace Assets.Scripts.Domain {
 
 		public void Move (int pos) {
 			Token.transform.position = GameSystem.Instance.Tiles [Tile = (Tile + pos) % 40].Position;
-			Debug.LogError ("moviendo "+Name+ " a "+ Tile);
+			Debug.Log("Moviendo "+Name+ " a "+ Tile);
 		}
     
 	}

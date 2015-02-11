@@ -1,8 +1,10 @@
-using UnityEngine;
 using System.Collections;
+
+using UnityEngine;
+
+using Assets.Scripts.Die;
 using Assets.Scripts.Utils;
 using Assets.Scripts.Domain;
-using Assets.Scripts.Dices;
 
 public class GameSystem : MonoBehaviour {
 
@@ -21,7 +23,7 @@ public class GameSystem : MonoBehaviour {
 
     public TurnDispatcher Turns;
 
-    public Dice Dice;
+    public GameObject Dice;
 
     void Awake() {
         m_Instance = this;
@@ -43,7 +45,7 @@ public class GameSystem : MonoBehaviour {
 
         ProximoTurno();
 
-        Dice = new Dice();
+        Dice = GameObject.Find(ObjMan.Dado1);
     }
 
     void OnDestroy() {
@@ -56,9 +58,15 @@ public class GameSystem : MonoBehaviour {
 
         ProximoTurno();
 
+        if (Dice == null)
+            Debug.LogError("Dado 404");
+
+        if (((DiceScript)Dice.GetComponent(typeof(DiceScript))) == null)
+            Debug.LogError("asdas");
+
         if (Input.GetKey(KeyCode.Return))
-            Dice.ResetDice();
-            
+            ((DiceScript)Dice.GetComponent(typeof(DiceScript))).ResetDice();
+
     }
 
     void OnGui() {

@@ -1,10 +1,15 @@
 using System;
 using System.Collections;
+
 using UnityEngine;
-namespace AssemblyCSharp.Scripts.Dices.Die {
+
+using Assets.Scripts.Utils;
+
+namespace AssemblyCSharp.Scripts.Die {
     public class SideTrigger : MonoBehaviour {
 
         public int FaceValue;
+
         private GameObject Die;
         private bool TriggerActive;
 
@@ -13,7 +18,7 @@ namespace AssemblyCSharp.Scripts.Dices.Die {
         public SideTrigger() { }
 
         public void Awake() {
-            Die = GameObject.Find("Dice1");
+            Die = GameObject.Find(ObjMan.Dado1);
             TriggerActive = false;
         }
 
